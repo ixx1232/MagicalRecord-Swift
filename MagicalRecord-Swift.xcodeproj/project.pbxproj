@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		AC75B4831BC4D4F1006A77A3 /* MagicalRecord-Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = AC75B4821BC4D4F1006A77A3 /* MagicalRecord-Swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AC75B48A1BC4D4F1006A77A3 /* MagicalRecord-Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC75B47F1BC4D4F1006A77A3 /* MagicalRecord-Swift.framework */; settings = {ASSET_TAGS = (); }; };
+		AC75B48A1BC4D4F1006A77A3 /* MagicalRecord_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC75B47F1BC4D4F1006A77A3 /* MagicalRecord_Swift.framework */; settings = {ASSET_TAGS = (); }; };
 		AC75B48F1BC4D4F1006A77A3 /* MagicalRecord_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC75B48E1BC4D4F1006A77A3 /* MagicalRecord_SwiftTests.swift */; };
+		AC75B49C1BC4D876006A77A3 /* MagicalRecordInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC75B49B1BC4D876006A77A3 /* MagicalRecordInternal.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +24,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AC75B47F1BC4D4F1006A77A3 /* MagicalRecord-Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "MagicalRecord-Swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC75B47F1BC4D4F1006A77A3 /* MagicalRecord_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MagicalRecord_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC75B4821BC4D4F1006A77A3 /* MagicalRecord-Swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MagicalRecord-Swift.h"; sourceTree = "<group>"; };
 		AC75B4841BC4D4F1006A77A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AC75B4891BC4D4F1006A77A3 /* MagicalRecord-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MagicalRecord-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC75B4891BC4D4F1006A77A3 /* MagicalRecord_SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicalRecord_SwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC75B48E1BC4D4F1006A77A3 /* MagicalRecord_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicalRecord_SwiftTests.swift; sourceTree = "<group>"; };
 		AC75B4901BC4D4F1006A77A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC75B49B1BC4D876006A77A3 /* MagicalRecordInternal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagicalRecordInternal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC75B48A1BC4D4F1006A77A3 /* MagicalRecord-Swift.framework in Frameworks */,
+				AC75B48A1BC4D4F1006A77A3 /* MagicalRecord_Swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,8 +64,8 @@
 		AC75B4801BC4D4F1006A77A3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AC75B47F1BC4D4F1006A77A3 /* MagicalRecord-Swift.framework */,
-				AC75B4891BC4D4F1006A77A3 /* MagicalRecord-SwiftTests.xctest */,
+				AC75B47F1BC4D4F1006A77A3 /* MagicalRecord_Swift.framework */,
+				AC75B4891BC4D4F1006A77A3 /* MagicalRecord_SwiftTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,6 +75,8 @@
 			children = (
 				AC75B4821BC4D4F1006A77A3 /* MagicalRecord-Swift.h */,
 				AC75B4841BC4D4F1006A77A3 /* Info.plist */,
+				AC75B49A1BC4D80B006A77A3 /* Core */,
+				AC75B4991BC4D802006A77A3 /* Categories */,
 			);
 			path = "MagicalRecord-Swift";
 			sourceTree = "<group>";
@@ -84,6 +88,21 @@
 				AC75B4901BC4D4F1006A77A3 /* Info.plist */,
 			);
 			path = "MagicalRecord-SwiftTests";
+			sourceTree = "<group>";
+		};
+		AC75B4991BC4D802006A77A3 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		AC75B49A1BC4D80B006A77A3 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				AC75B49B1BC4D876006A77A3 /* MagicalRecordInternal.swift */,
+			);
+			name = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -115,7 +134,7 @@
 			);
 			name = "MagicalRecord-Swift";
 			productName = "MagicalRecord-Swift";
-			productReference = AC75B47F1BC4D4F1006A77A3 /* MagicalRecord-Swift.framework */;
+			productReference = AC75B47F1BC4D4F1006A77A3 /* MagicalRecord_Swift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		AC75B4881BC4D4F1006A77A3 /* MagicalRecord-SwiftTests */ = {
@@ -133,7 +152,7 @@
 			);
 			name = "MagicalRecord-SwiftTests";
 			productName = "MagicalRecord-SwiftTests";
-			productReference = AC75B4891BC4D4F1006A77A3 /* MagicalRecord-SwiftTests.xctest */;
+			productReference = AC75B4891BC4D4F1006A77A3 /* MagicalRecord_SwiftTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -142,6 +161,7 @@
 		AC75B4761BC4D4F1006A77A3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Jacky Wu";
 				TargetAttributes = {
@@ -193,6 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC75B49C1BC4D876006A77A3 /* MagicalRecordInternal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +328,7 @@
 		AC75B4941BC4D4F1006A77A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -315,14 +337,16 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jackwyu07.MagicalRecord-Swift";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		AC75B4951BC4D4F1006A77A3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -331,7 +355,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jackwyu07.MagicalRecord-Swift";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -342,7 +366,7 @@
 				INFOPLIST_FILE = "MagicalRecord-SwiftTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jackwyu07.MagicalRecord-SwiftTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 			};
 			name = Debug;
 		};
@@ -352,7 +376,7 @@
 				INFOPLIST_FILE = "MagicalRecord-SwiftTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jackwyu07.MagicalRecord-SwiftTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 			};
 			name = Release;
 		};
@@ -375,6 +399,7 @@
 				AC75B4951BC4D4F1006A77A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC75B4961BC4D4F1006A77A3 /* Build configuration list for PBXNativeTarget "MagicalRecord-SwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -383,6 +408,7 @@
 				AC75B4981BC4D4F1006A77A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
