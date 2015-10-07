@@ -43,7 +43,7 @@ class MagicalRecord {
   }
 
   class func defaultStoreName() -> String! {
-    var defaultName: String? = NSBundle.mainBundle().objectForInfoDictionaryKey(kCFBundleNameKey as String) as? String
+    let defaultName: String? = NSBundle.mainBundle().objectForInfoDictionaryKey(kCFBundleNameKey as String) as? String
     if (defaultName == nil) {
       defaultName = kMagicalRecordDefaultStoreFileName
     }
