@@ -7,3 +7,5 @@
 //
 
 import Foundation
+
+public typealias MRSaveCompletionHandler = (contextDidSave: Bool, error: NSError) -> Void

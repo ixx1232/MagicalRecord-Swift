@@ -14,36 +14,36 @@ import Foundation
 //  typedef void (^CoreDataBlock)(NSManagedObjectContext *context);
 //#endif
 
-enum MagicalRecordVersionTag: UInt {
+public enum MagicalRecordVersionTag: UInt {
   case MagicalRecordVersionTag2_2 = 220
   case MagicalRecordVersionTag2_3 = 230
   case MagicalRecordVersionTag3_0 = 300
 }
 
-class MagicalRecord {
+public class MagicalRecord {
   
-  class func version() -> MagicalRecordVersionTag {
+  public class func version() -> MagicalRecordVersionTag {
     return MagicalRecordVersionTag.MagicalRecordVersionTag2_2
   }
 
-  class func cleanup() {
+  public class func cleanup() {
     
   }
   
-  class func currentStack() -> String {
-    
+  public class func currentStack() -> String {
+
   }
   
-  class func setDefaultModelNamed(modelName: String) {
+  public class func setDefaultModelNamed(modelName: String) {
 
   }
 
-  class func setDefaultModelFromClass(modelClass: AnyClass) {
+  public class func setDefaultModelFromClass(modelClass: AnyClass) {
     
   }
 
-  class func defaultStoreName() -> String! {
-    let defaultName: String? = NSBundle.mainBundle().objectForInfoDictionaryKey(kCFBundleNameKey as String) as? String
+  public class func defaultStoreName() -> String! {
+    var defaultName: String? = NSBundle.mainBundle().objectForInfoDictionaryKey(kCFBundleNameKey as String) as? String
     if (defaultName == nil) {
       defaultName = kMagicalRecordDefaultStoreFileName
     }

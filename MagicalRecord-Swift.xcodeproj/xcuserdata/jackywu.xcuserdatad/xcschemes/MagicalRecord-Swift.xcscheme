@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AC75B47E1BC4D4F1006A77A3"
-               BuildableName = "MagicalRecord-Swift.framework"
+               BuildableName = "MagicalRecord_Swift.framework"
                BlueprintName = "MagicalRecord-Swift"
                ReferencedContainer = "container:MagicalRecord-Swift.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AC75B4881BC4D4F1006A77A3"
-               BuildableName = "MagicalRecord-SwiftTests.xctest"
+               BuildableName = "MagicalRecord_SwiftTests.xctest"
                BlueprintName = "MagicalRecord-SwiftTests"
                ReferencedContainer = "container:MagicalRecord-Swift.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AC75B47E1BC4D4F1006A77A3"
-            BuildableName = "MagicalRecord-Swift.framework"
+            BuildableName = "MagicalRecord_Swift.framework"
             BlueprintName = "MagicalRecord-Swift"
             ReferencedContainer = "container:MagicalRecord-Swift.xcodeproj">
          </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AC75B47E1BC4D4F1006A77A3"
-            BuildableName = "MagicalRecord-Swift.framework"
+            BuildableName = "MagicalRecord_Swift.framework"
             BlueprintName = "MagicalRecord-Swift"
             ReferencedContainer = "container:MagicalRecord-Swift.xcodeproj">
          </BuildableReference>
@@ -83,7 +83,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AC75B47E1BC4D4F1006A77A3"
-            BuildableName = "MagicalRecord-Swift.framework"
+            BuildableName = "MagicalRecord_Swift.framework"
             BlueprintName = "MagicalRecord-Swift"
             ReferencedContainer = "container:MagicalRecord-Swift.xcodeproj">
          </BuildableReference>
