@@ -26,10 +26,7 @@ public extension NSManagedObjectModel {
   class func MR_mergedObjectModelFromMainBundle() -> NSManagedObjectModel? {
     return self.mergedModelFromBundles(nil)
   }
-  
 
-  
-  
   class func MR_newModelNamed(modelName: String, inBundleName bundleName: String) -> NSManagedObjectModel? {
     let rscName: String = (modelName as NSString).stringByDeletingPathExtension
     let type: String = (modelName as NSString).pathExtension
