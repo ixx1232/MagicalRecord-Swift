@@ -7,3 +7,12 @@
 //
 
 import Foundation
+import CoreData
+
+//MARK: NSString+MagicalRecordDataImport
+public extension NSString {
+  
+  public func MR_capitalizedFirstCharacterString() -> String {
+    
+  }
+}

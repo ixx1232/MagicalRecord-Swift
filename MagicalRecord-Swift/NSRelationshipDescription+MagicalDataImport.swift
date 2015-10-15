@@ -7,3 +7,12 @@
 //
 
 import Foundation
+import CoreData
+
+//MARK: NSRelationshipDescription+MagicalRecordDataImport
+public extension NSRelationshipDescription {
+  
+  public func MR_primaryKey() -> String {
+    
+  }
+}

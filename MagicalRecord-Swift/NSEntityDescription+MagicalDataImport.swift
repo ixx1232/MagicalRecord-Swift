@@ -7,7 +7,7 @@
 //
 
 import Foundation
-
+import CoreData
 
 //MARK: NSEntityDescription+MagicalRecordDataImport
 public extension NSEntityDescription {

@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import CoreData
 
 //MARK: NSAttributeDescription+MagicalDataImport
 public extension NSAttributeDescription {

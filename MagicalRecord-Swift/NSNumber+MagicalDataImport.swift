@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import CoreData
 
 //MARk: NSNumber+MagicalRecordDataImport
 public extension NSNumber {
