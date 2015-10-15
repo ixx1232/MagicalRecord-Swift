@@ -41,7 +41,6 @@ func MR_colorFromString(serializedColor: String) -> UIColor {
     
 }
 
-
 /* add support to OSX later
 func MR_colorFromString(serializedColor: String) -> NSColor {
     

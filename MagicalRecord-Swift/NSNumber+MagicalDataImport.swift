@@ -7,3 +7,15 @@
 //
 
 import Foundation
+
+//MARk: NSNumber+MagicalRecordDataImport
+public extension NSNumber {
+  
+  public func MR_lookupKeyForAttribute(attributeInfo: NSAttributeDescription) -> String {
+    
+  }
+  
+  public func MR_relatedValueForRelationship(relationshipInfo: NSRelationshipDescription) -> AnyObject {
+    
+  }
+}

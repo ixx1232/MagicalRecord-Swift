@@ -7,3 +7,25 @@
 //
 
 import Foundation
+import CoreData
+
+public extension NSObject {
+
+  public func MR_lookupKeyForAttribute(attributeInfo: NSAttributeDescription) -> String {
+    
+  }
+  
+  public func MR_valueForAttribute(attributeInfo: NSAttributeDescription) -> AnyObject {
+    
+  }
+  
+  public func MR_lookupKeyForRelationship(relationshipInfo: NSRelationshipDescription) -> String {
+    
+  }
+  
+  public func MR_relatedValueForRelationship(relationshipInfo: NSRelationshipDescription) -> AnyObject {
+    
+  }
+}
+
+

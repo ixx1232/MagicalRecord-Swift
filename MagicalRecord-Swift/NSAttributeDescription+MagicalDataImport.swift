@@ -7,3 +7,16 @@
 //
 
 import Foundation
+
+//MARK: NSAttributeDescription+MagicalDataImport
+public extension NSAttributeDescription {
+  
+  public func MR_primaryKey() -> String {
+    
+  }
+  
+  public func MR_valueForKeyPath(keyPath: String,
+    fromObjectData objectData: AnyObject) -> AnyObject {
+      
+  }
+}
